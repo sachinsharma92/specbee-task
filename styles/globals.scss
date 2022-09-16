@@ -364,6 +364,14 @@ body {
       overflow: hidden;
       transform: scale(0.85);
     }
+
+    #trigger_div {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100px;
+      z-index: 999;
+    }
   }
 
   // section-tortor
