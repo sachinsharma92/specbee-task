@@ -16,7 +16,7 @@ export const TortorSection = () => {
     })
       .setTween(tweenArrow)
       .addTo(ArrowLineController)
-      .addIndicators('saskoasjao');
+      // .addIndicators('saskoasjao');
   }, [])
 
 

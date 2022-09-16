@@ -44,14 +44,13 @@ export default function TeamMembers() {
     gsap.registerPlugin(ScrollTrigger);
     let sections = gsap.utils.toArray(".panel");
     gsap.to(sections, {
-      xPercent: -35 * (sections.length - 1),
+      xPercent: -35 * (sections.length + 1),
       ease: "none",
       scrollTrigger: {
         trigger: ".image-groups-section",
         pin: true,
         scrub: 1,
-        // base vertical scrolling on how wide the container is so it feels more natural.
-        end: "+=3500",
+        end: "+=2500",
       }
     });
   }, [])
