@@ -8,7 +8,7 @@ export default function Header() {
     <nav className="navbar navbar-expand-lg header-style">
       <div className="container">
         <a className="navbar-brand" href="#"><img src="images/logo.svg" alt="" /></a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
