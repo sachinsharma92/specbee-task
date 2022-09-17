@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import ButtonPrimary from '../buttonPrimary/ButtonPrimary';
 
@@ -6,7 +7,7 @@ export default function Header() {
   return (
     <nav className="navbar navbar-expand-lg header-style">
       <div className="container">
-        <a className="navbar-brand" href="#"><img src="../../static/logo/logo.svg" alt="" /></a>
+        <a className="navbar-brand" href="#"><img src="images/logo.svg" alt="" /></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

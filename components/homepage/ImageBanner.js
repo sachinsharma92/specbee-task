@@ -40,7 +40,7 @@ export default function ImageBanner() {
     <section className='image-banner-section'>
       <div id="trigger_element1" className="spacer s0" />
       <div className="banner">
-        <img src="../../static/banner.jpg" className='banner-img' alt="" />
+        <img src="images/banner.jpg" className='banner-img' alt="" />
         <div className="container">
           <div className="row">
             <div className="col-sm-12">

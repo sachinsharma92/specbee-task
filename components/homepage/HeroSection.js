@@ -22,8 +22,7 @@ export default function HeroSection() {
               Lorem ipsum dolor consectetur elit. <br />
               Quam vel rhoncus facilisis ac lectus suspendisse
             </p>
-            <img src="../../static/arrow-down.svg" alt="" className='arrow-down' data-aos="fade-up"
-              data-aos-duration="4300" />
+            <img src="images/arrow-down.svg" alt="" className='arrow-down' data-aos="fade-up" data-aos-duration="4300" />
           </div>
         </div>
       </div>

@@ -3,23 +3,23 @@ import gsap from "gsap";
 
 const teamMembers = [
   {
-    imageUrl: '../../static/members/member1.png',
+    imageUrl: 'images/members/member1.png',
   },
   {
-    imageUrl: '../../static/members/member2.png'
+    imageUrl: 'images/members/member2.png'
   },
   {
-    imageUrl: '../../static/members/member3.png',
+    imageUrl: 'images/members/member3.png',
     imgStyle: 'firstImage'
   },
   {
-    imageUrl: '../../static/members/member1.png'
+    imageUrl: 'images/members/member1.png'
   },
   {
-    imageUrl: '../../static/members/member2.png'
+    imageUrl: 'images/members/member2.png'
   },
   {
-    imageUrl: '../../static/members/member3.png'
+    imageUrl: 'images/members/member3.png'
   },
 ]
 

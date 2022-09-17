@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useEffect } from 'react'
 import ButtonPrimary from '../buttonPrimary/ButtonPrimary'
 
@@ -35,7 +36,7 @@ export const TortorSection = () => {
       </div>
 
       <div className="button-arrow-section">
-        <img src="../../static/long-arrow.svg" alt="" className='arrow-long' />
+        <img src="images/long-arrow.svg" layout="fill" alt="" className='arrow-long' />
         <ButtonPrimary title="Join today" iconRight />
       </div>
     </section>
