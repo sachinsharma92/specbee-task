@@ -6,7 +6,7 @@ import ImageBanner from '../../components/homepage/ImageBanner';
 import SixMillion from '../../components/homepage/SixMillion';
 import TeamMembers from '../../components/homepage/TeamMembers';
 import { TortorSection } from '../../components/homepage/TortorSection';
-import HeroSection from '../../components/homepage/heroSection';
+import HeroSection from '../../components/homepage/HeroSection';
 import Consectetur from '../../components/homepage/Consectetur';
 
 
