@@ -1,19 +1,29 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default function HeroSection() {
+  useEffect(() => {
+    AOS.init({
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 50,
+    });
+  }, []);
+
+
   return (
-    <section className='hero-section'>
+    <section className='hero-section' id="pinHitter">
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-            <div className="animation-blc-block">
-              <h1 className="title1 theme-primary revel-style">Eleifend amet in amet.</h1>
-            </div>
-            <div className="animation-blc-block">
-              <p className="description">
-                Lorem ipsum dolor consectetur elit. <br />
-                Quam vel rhoncus facilisis ac lectus suspendisse
-              </p>
-            </div>
-            <img src="../../static/arrow-down.svg" alt="" className='arrow-down' />
+            <h1 className="title1 theme-primary" data-aos="zoom-out">Eleifend amet in amet.</h1>
+            <p className="description" data-aos="zoom-out">
+              Lorem ipsum dolor consectetur elit. <br />
+              Quam vel rhoncus facilisis ac lectus suspendisse
+            </p>
+            <img src="../../static/arrow-down.svg" alt="" className='arrow-down' data-aos="fade-up"
+              data-aos-duration="4300" />
           </div>
         </div>
       </div>

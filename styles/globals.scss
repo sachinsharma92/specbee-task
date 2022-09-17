@@ -28,8 +28,20 @@ body {
 }
 
 // animation sec
-.animation-blc-block {
+.animation-block {
   overflow: hidden;
+}
+
+.line{
+  width: 70%;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+  span{
+    position: absolute;
+    font-size: 3rem;
+    line-height: 4.2rem;
+  }
 }
 
 // Button Join Style
@@ -274,7 +286,7 @@ body {
 
   .hero-section {
     text-align: center;
-    height: 70vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -317,7 +329,7 @@ body {
     width: 100vw;
     margin: 0 auto;
     border-radius: 10px;
-    transform: scale(0.85);
+    transform: scale(0.9);
 
     .banner {
       height: 100vh;
