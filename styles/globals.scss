@@ -352,6 +352,8 @@ body {
   .image-groups-section {
     background-color: $white;
     width: 100vw;
+    height: 100vh;
+    position: relative;
 
     .image-groups-items {
       background-color: $black;
@@ -362,15 +364,12 @@ body {
       border-radius: 20px;
       display: flex;
       overflow: hidden;
-      transform: scale(0.85);
+      gap: 10px;
+      transform: scale(0.9);
     }
 
-    #trigger_div {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100px;
-      z-index: 999;
+    .member-image {
+      position: relative;
     }
   }
 
