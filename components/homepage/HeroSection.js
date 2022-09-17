@@ -17,8 +17,8 @@ export default function HeroSection() {
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-            <h1 className="title1 theme-primary" data-aos="zoom-out">Eleifend amet in amet.</h1>
-            <p className="description" data-aos="zoom-out">
+            <h1 className="title1 theme-primary" data-aos="flip-up">Eleifend amet in amet.</h1>
+            <p className="description" data-aos="flip-up">
               Lorem ipsum dolor consectetur elit. <br />
               Quam vel rhoncus facilisis ac lectus suspendisse
             </p>
